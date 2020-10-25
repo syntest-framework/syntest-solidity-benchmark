@@ -374,17 +374,13 @@ package-lock.json
 
 coverage.json
 coverage/
-node_modules/
 .changelog
-.DS_Store
 test/artifacts
 test/cache
 temp
 .nyc_output/
+
 .npmrc
 
-/lib/**/*.js
-/lib/**/*.map
 
-!/lib/instrumentation/**/*.js
-!/lib/instrumentation/**/*.map
+cfg.svg
