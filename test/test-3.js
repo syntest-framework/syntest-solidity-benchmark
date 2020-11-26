@@ -2,13 +2,13 @@ const MetaCoin = artifacts.require("MetaCoin");
 
 contract('MetaCoin', (accounts) => {
 	it('test for MetaCoin', async () => {
-		const MetaCoinObjectn2eQRAe = await MetaCoin.deployed();
-		const uint165SEhXjf = 9301
-		const addressFwG8M9M = accounts[0]
-		const boolmov0xgY = await MetaCoinObjectn2eQRAe.sendCoin.call(addressFwG8M9M, uint165SEhXjf);
+		const MetaCoinObjectAbrhLtp = await MetaCoin.deployed();
+		const uint16dSCOkG8 = 9222
+		const address2TZhRoM = accounts[0]
+		const boolJNpiUzG = await MetaCoinObjectAbrhLtp.sendCoin.call(address2TZhRoM, uint16dSCOkG8);
 
-		assert.equal(uint165SEhXjf, 9301)
-		assert.equal(addressFwG8M9M, accounts[0])
-		assert.equal(boolmov0xgY, true)
+		assert.equal(uint16dSCOkG8, 9222)
+		assert.equal(address2TZhRoM, accounts[0])
+		assert.equal(boolJNpiUzG, true)
 	});
 })
