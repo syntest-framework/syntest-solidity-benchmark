@@ -8,7 +8,7 @@ module.exports = {
     delta_mutation_chance: 0.8,
     sample_func_as_arg: 0.5,
 
-    algorithm: "NSGA2",
+    algorithm: "MOSA",
     stopping_criteria: [
         {
             criterion: "generation_limit",
@@ -16,7 +16,7 @@ module.exports = {
         },
         {
             criterion: "time_limit",
-            limit: 1000 * 60 * 5
+            limit: 1000 * 5
         },
         {
             criterion: "coverage",
@@ -26,5 +26,8 @@ module.exports = {
 
     // logging
     console_log_level: "debug",
-    log_to_file: ["info", "warn", "error"]
+    log_to_file: ["info", "warn", "error"],
+    exclude: [
+        "ConvertLib.sol"
+    ]
 }
