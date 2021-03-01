@@ -12,11 +12,11 @@ module.exports = {
     stopping_criteria: [
         {
             criterion: "generation_limit",
-            limit: 10
+            limit: 50
         },
         {
             criterion: "time_limit",
-            limit: 1000 * 5
+            limit: 1000 * 60 * 5
         },
         {
             criterion: "coverage",
@@ -31,3 +31,4 @@ module.exports = {
         "ConvertLib.sol"
     ]
 }
+
