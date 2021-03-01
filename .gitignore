@@ -383,4 +383,5 @@ temp
 .npmrc
 
 
-cfg.svg
+.syntest.js/
+syntest/
