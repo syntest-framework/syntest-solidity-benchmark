@@ -1,4 +1,7 @@
 # syntest-solidity-benchmark
+
+[![](https://github.com/syntest-framework/syntest-solidity-benchmark/actions/workflows/node.js.yml/badge.svg)](https://github.com/syntest-framework/syntest-solidity-benchmark/actions/workflows/node.js.yml)
+
 Provides a benchmarking environment for testing SynTest-Solidity
 
 # How to use
