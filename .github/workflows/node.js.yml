@@ -52,6 +52,8 @@ jobs:
     - name: Benchmark - Install Dependencies
       run: npm install
       working-directory: syntest-solidity-benchmark
+    - name: Benchmark - Install Truffle globally
+      run: npm install -g truffle
     - name: Benchmark - Run Truffle
       run: truffle run syntest-solidity
       working-directory: syntest-solidity-benchmark
