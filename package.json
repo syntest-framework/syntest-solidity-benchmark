@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "run": "truffle run syntest-solidity"
+  },
   "homepage": "https://github.com/syntest-framework/syntest-solidity-benchmark",
   "repository": {
     "type": "git",
