@@ -37,7 +37,9 @@ module.exports = {
         "CurveAdapterPriceOracle_utils.sol",
         "PlasmaswapPair_utils.sol",
         "EdenCoin_utils.sol",
-        "temp.sol"
+        //"KayboMon_utils.sol",
+        "Controller_utisl.sol",
+        "AntiSFI_utils.sol"
     ]
 }
 
