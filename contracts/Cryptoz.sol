@@ -331,7 +331,7 @@ contract Cryptoz is CryptozCard {
         _;
     }
 
-    function() external {
+    function f() external {
         revert();
     }
 
@@ -355,10 +355,10 @@ contract Cryptoz is CryptozCard {
         //what requires should we add ?
 
         //a max. of 5000 types in the universe ever
-        if(!(cardTypesIds.length <= maxCardTypes))require(cardTypesIds.length <= maxCardTypes);
+        require(cardTypesIds.length <= maxCardTypes);
 
         //not allowed to update existing cardTypeIds
-        if(!(allCardTypes[_cardTypeId].cardTypeId == 0))require(allCardTypes[_cardTypeId].cardTypeId == 0);
+        require(allCardTypes[_cardTypeId].cardTypeId == 0);
 
         allCardTypes[_cardTypeId].cardTypeId    = _cardTypeId;
         allCardTypes[_cardTypeId].name          = _name;
@@ -390,12 +390,12 @@ contract Cryptoz is CryptozCard {
 
         //not allowed to update existing cardTypeIds
         //TODO check for NULL in case we push 0 for a property
-        if(!(allCardTypes[_cardTypeId].transferCzxp == 0))require(allCardTypes[_cardTypeId].transferCzxp == 0);
-        if(!(allCardTypes[_cardTypeId].sacrificeCzxp == 0))require(allCardTypes[_cardTypeId].sacrificeCzxp == 0);
-        if(!(allCardTypes[_cardTypeId].unlockCzxp == 0))require(allCardTypes[_cardTypeId].unlockCzxp == 0);
-        if(!(allCardTypes[_cardTypeId].cardLevel == 0))require(allCardTypes[_cardTypeId].cardLevel == 0);
+        require(allCardTypes[_cardTypeId].transferCzxp == 0);
+        require(allCardTypes[_cardTypeId].sacrificeCzxp == 0);
+        require(allCardTypes[_cardTypeId].unlockCzxp == 0);
+        require(allCardTypes[_cardTypeId].cardLevel == 0);
 
-        if(!(allCardTypes[_cardTypeId].cardTypeId == _cardTypeId))require(allCardTypes[_cardTypeId].cardTypeId == _cardTypeId);
+        require(allCardTypes[_cardTypeId].cardTypeId == _cardTypeId);
 
 
         allCardTypes[_cardTypeId].transferCzxp  = _transferCzxp;
@@ -419,28 +419,28 @@ contract Cryptoz is CryptozCard {
     function buyCard(uint32 _cardTypeId) external payable isValidCard(_cardTypeId) returns(bool) {
 
         // dont even bother if no ETH sent
-        if(!(msg.value > 0))require(msg.value > 0, "Pay up!");
+        require(msg.value > 0, "Pay up!");
 
         //check for valid cardType
-        if(!(allCardTypes[_cardTypeId].cardTypeId == _cardTypeId))require(allCardTypes[_cardTypeId].cardTypeId == _cardTypeId, "Cannot buy cards that are not defined");
+        require(allCardTypes[_cardTypeId].cardTypeId == _cardTypeId, "Cannot buy cards that are not defined");
 
         cardType memory _tempCard = allCardTypes[_cardTypeId];
 
         //check if store only
-        if(!(storeBoosterBonus[_cardTypeId] == 0))require(storeBoosterBonus[_cardTypeId] == 0, "Can only buy cards from Store");
+        require(storeBoosterBonus[_cardTypeId] == 0, "Can only buy cards from Store");
 
         //CHECKS-EFFECT, Can't buy cards you own
-        if(!(cardTypesOwned[msg.sender][_cardTypeId] == false))require(cardTypesOwned[msg.sender][_cardTypeId] == false, "Only 1 Card Type purchase per wallet");
+        require(cardTypesOwned[msg.sender][_cardTypeId] == false, "Only 1 Card Type purchase per wallet");
 
         //Check if this card amount we sell is more than edition+1 for this card type
-        if(!((totalAvailable[_cardTypeId] >= cardTypeToEdition[_cardTypeId] + 1 )))require((totalAvailable[_cardTypeId] >= cardTypeToEdition[_cardTypeId] + 1 ), "Maximum edition reached for this Card Type");
+        require((totalAvailable[_cardTypeId] >= cardTypeToEdition[_cardTypeId] + 1 ), "Maximum edition reached for this Card Type");
 
         //check if they have paid enough for it
-        if(!(msg.value >= _tempCard.weiCost))require(msg.value >= _tempCard.weiCost, "Not enough Ether sent to purchase this card");
+        require(msg.value >= _tempCard.weiCost, "Not enough Ether sent to purchase this card");
 
         //check if we have enough czxp to unlock this card
         uint czxp = CzxpToken(CzxpContractAddress_).balanceOf(msg.sender);
-        if(!(czxp >= _tempCard.unlockCzxp))require(czxp >= _tempCard.unlockCzxp, "Wallet does not have enough czxp to unlock this Card Type");
+        require(czxp >= _tempCard.unlockCzxp, "Wallet does not have enough czxp to unlock this Card Type");
 
         //Clear ? to buy the card
 
@@ -463,7 +463,7 @@ contract Cryptoz is CryptozCard {
     //every 8 hours, the address can get 2 free booster cards
     function getBonusBoosters() external {
         //this only runs if time to get new cards
-        if(!(now > getTimeToDailyBonus(msg.sender)))require(now > getTimeToDailyBonus(msg.sender), "Can't claim before time to claim next bonus");
+        require(now > getTimeToDailyBonus(msg.sender), "Can't claim before time to claim next bonus");
 
         //Stop re-entrancy, update the lastpull value
         timeToCardsPull[msg.sender] = now + 8 hours;
@@ -478,20 +478,20 @@ contract Cryptoz is CryptozCard {
      */
     function getFreeCard(uint32 _cardTypeId) external isValidCard(_cardTypeId) {
         //check if store only
-        if(!(storeBoosterBonus[_cardTypeId] == 0))require(storeBoosterBonus[_cardTypeId] == 0);
+        require(storeBoosterBonus[_cardTypeId] == 0);
 
         // ensure there is enough of a supply left
-        if(!(totalAvailable[_cardTypeId] > (cardTypeToEdition[_cardTypeId]+1)))require(totalAvailable[_cardTypeId] > (cardTypeToEdition[_cardTypeId]+1));
+        require(totalAvailable[_cardTypeId] > (cardTypeToEdition[_cardTypeId]+1));
 
         //Can't get cards From shop that you own
-        if(!(cardTypesOwned[msg.sender][_cardTypeId] == false))require(cardTypesOwned[msg.sender][_cardTypeId] == false);
+        require(cardTypesOwned[msg.sender][_cardTypeId] == false);
 
         //check if we have enough czxp to unlock this card
         uint czxp = CzxpToken(CzxpContractAddress_).balanceOf(msg.sender);
-        if(!(czxp >= allCardTypes[_cardTypeId].unlockCzxp))require(czxp >= allCardTypes[_cardTypeId].unlockCzxp);
+        require(czxp >= allCardTypes[_cardTypeId].unlockCzxp);
 
         //Only cards that are Free
-        if(!(allCardTypes[_cardTypeId].weiCost == 0))require(allCardTypes[_cardTypeId].weiCost == 0);
+        require(allCardTypes[_cardTypeId].weiCost == 0);
 
         //ALL CLEAR ???????? claim a new card
 
@@ -525,7 +525,7 @@ contract Cryptoz is CryptozCard {
     function buyBoosterCard(uint _amount) payable external returns(bool) {
 
         // is there enough wei sent 1 pack = 0.002 ETH ?
-        if(!(msg.value >= weiCostOfCard.mul(_amount)))require(msg.value >= weiCostOfCard.mul(_amount));
+        require(msg.value >= weiCostOfCard.mul(_amount));
 
         //All good increase the number owned
         boosterPacksOwned[msg.sender] = boosterPacksOwned[msg.sender].add(_amount);
@@ -543,7 +543,7 @@ contract Cryptoz is CryptozCard {
      */
     function buyBoosterCardAndOpen() payable external {
         // is there enough wei sent 1 pack = 0.005 ETH ?
-        if(!(msg.value >= weiCostOfCard))require(msg.value >= weiCostOfCard);
+        require(msg.value >= weiCostOfCard);
 
         //All good increase the number owned
         boosterPacksOwned[msg.sender] = boosterPacksOwned[msg.sender].add(1);
@@ -562,10 +562,10 @@ contract Cryptoz is CryptozCard {
      */
     function openBoosterCard(uint czxpWager) public returns(bool) {
         //Ensure user owns unopened packs
-        if(!(boosterPacksOwned[msg.sender] > 0))require(boosterPacksOwned[msg.sender] > 0);
+        require(boosterPacksOwned[msg.sender] > 0);
 
         //czxpWager check czxpWager
-        if(!(czxpWager >= 0))require(czxpWager >= 0);
+        require(czxpWager >= 0);
 
         //STOP re-entrancy , decrement number of packs
         boosterPacksOwned[msg.sender] = boosterPacksOwned[msg.sender].sub(1);
@@ -584,13 +584,13 @@ contract Cryptoz is CryptozCard {
      */
     function linkMySponsor(address mySponsor) external {
         //check that mySponsor arg is not 0x0
-        if(!(mySponsor != address(0)))require(mySponsor != address(0));
+        require(mySponsor != address(0));
 
         //ensure the sponsor isn't Linked
-        if(!(sponsors[msg.sender] == address(0))) require(sponsors[msg.sender] == address(0));
+        require(sponsors[msg.sender] == address(0));
 
         //Check they are not linking to themselves
-        if(!(msg.sender != mySponsor))require(msg.sender != mySponsor);
+        require(msg.sender != mySponsor);
 
         //All clear?  stop re-entrancy, set the association
         sponsors[msg.sender] = mySponsor;
@@ -637,11 +637,11 @@ contract Cryptoz is CryptozCard {
     function getRarity(uint czxpWager) private returns(uint8){
 
         //Check if below upper limit
-        if (!(czxpWager <= 1649267441667000))require(czxpWager <= 1649267441667000);
+        require(czxpWager <= 1649267441667000);
 
         //FIRST ensure, player can back their wager
         uint _playerCZXPBalance = CzxpToken(CzxpContractAddress_).balanceOf(msg.sender);
-        if(!(_playerCZXPBalance >= czxpWager))require(_playerCZXPBalance >= czxpWager);
+        require(_playerCZXPBalance >= czxpWager);
 
         //Check effects - Take their czxp
         if(czxpWager > 0){
