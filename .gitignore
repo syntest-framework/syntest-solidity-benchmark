@@ -379,9 +379,11 @@ test/artifacts
 test/cache
 temp
 .nyc_output/
+.coverage_contracts/
 
 .npmrc
 
 
 .syntest.js/
+.syntest/
 syntest/
