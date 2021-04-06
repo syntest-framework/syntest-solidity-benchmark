@@ -1,6 +1,6 @@
 module.exports = {
     seed: 'test',
-    population_size: 20,
+    population_size: 10,
     max_depth: 5,
 
     // mutation chances
@@ -9,20 +9,16 @@ module.exports = {
     sample_func_as_arg: 0.5,
     explore_illegal_values: false,
 
-    algorithm: "MOSA",
+    algorithm: "DynaMOSA",
     stopping_criteria: [
         {
             criterion: "generation_limit",
-            limit:50
+            limit: 5
         },
         {
             criterion: "time_limit",
-            limit: 1000 * 60 * 10
+            limit: 60 * 2
         },
-        {
-            criterion: "coverage",
-            limit: 100
-        }
     ],
 
     // logging
@@ -37,9 +33,30 @@ module.exports = {
         "CurveAdapterPriceOracle_utils.sol",
         "PlasmaswapPair_utils.sol",
         "EdenCoin_utils.sol",
-        //"KayboMon_utils.sol",
         "Controller_utisl.sol",
-        "AntiSFI_utils.sol"
+        "AntiSFI_utils.sol",
+        "Hold_utils.sol",
+        "TetherToken_utils.sol",
+        "TokenDispatch_utils.sol",
+        "FrogDAOGovernanceRewards_utils.sol",
+        "YieldFarmLP2_utils.sol",
+        "UNIWHALE_ERC20_utils.sol",
+        "SALESCONTRACT_utils.sol",
+        "AavePoolReward_utils.sol",
+        "SSTRewards_utils.sol",
+        "FairStockEquity_utils.sol",
+        "BAE_utils.sol",
+        "MisesLegacyPool_utils.sol",
+        "StakingDextoken_utils.sol",
+        "GardenContractV2_utils.sol",
+        "ANRXToken_utils.sol",
+        "JGNRewards_utils.sol",
+        "afiController_utils.sol",
+        "Cryptoz_utils.sol",
+        "Rexona_utils.sol",
+        "BTCParamV2_utils.sol",
+        "LUP_utils.sol",
+        "temp.sol"
     ]
 }
 
