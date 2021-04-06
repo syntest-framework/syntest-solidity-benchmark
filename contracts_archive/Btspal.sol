@@ -224,7 +224,7 @@ contract Btspal {
     /**
      * function that is launched when transferring money to a contract
      */
-    function() external payable{
+    function f() external payable{
         if (msg.value >= MINIMAL_DEPOSIT){
             //if the sender is not a found wallet, then we make out a deposit otherwise we do nothing,
             // but simply put money on the balance of the contract
