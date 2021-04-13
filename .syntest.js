@@ -13,11 +13,11 @@ module.exports = {
     stopping_criteria: [
         {
             criterion: "generation_limit",
-            limit: 5
+            limit: 100
         },
         {
             criterion: "time_limit",
-            limit: 60 * 2
+            limit: 60 * 15
         },
     ],
 
@@ -56,7 +56,9 @@ module.exports = {
         "Rexona_utils.sol",
         "BTCParamV2_utils.sol",
         "LUP_utils.sol",
-        "temp.sol"
+        "CryptoGhost_utils.sol",
+        "RootChain_utils.sol",
+        "GFC_utils.sol"
     ]
 }
 

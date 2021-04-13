@@ -30,7 +30,6 @@
 // const AavePoolReward = artifacts.require("AavePoolReward");
 // const SSTRewards = artifacts.require("SSTRewards");
 // const FairStockEquity = artifacts.require("FairStockEquity");
-// const Btspal = artifacts.require("Btspal");
 // const BAE = artifacts.require("BAE");
 // const MisesLegacyPool = artifacts.require("MisesLegacyPool");
 // const StakingDextoken = artifacts.require("StakingDextoken");
@@ -58,7 +57,6 @@
 // const Cover_ZapIn_General_V1 = artifacts.require("Cover_ZapIn_General_V1");
 // const vnxManager = artifacts.require("vnxManager");
 // const RIT = artifacts.require("RIT");
-// const MerkleAirdrop = artifacts.require("MerkleAirdrop");
 // const Straight_Fire_Finance = artifacts.require("Straight_Fire_Finance");
 // const OnXFinance = artifacts.require("OnXFinance");
 // const BlueICE = artifacts.require("BlueICE");
@@ -66,7 +64,7 @@
 // const SLTDStaking = artifacts.require("SLTDStaking");
 // const KPLAY = artifacts.require("KPLAY");
 // const Dipex = artifacts.require("Dipex");
- const Cryptoz = artifacts.require("Cryptoz");
+// const Cryptoz = artifacts.require("Cryptoz");
 // const GUMARewards = artifacts.require("GUMARewards");
 // const Rexona = artifacts.require("Rexona");
 // const POWToken = artifacts.require("POWToken");
@@ -91,9 +89,19 @@
 // const MarsStakingRewards = artifacts.require("MarsStakingRewards");
 // const DMONDETHRewards = artifacts.require("DMONDETHRewards");
 // const QuickToken = artifacts.require("QuickToken");
+// const LIBERAPAY = artifacts.require("LIBERAPAY");
+// const DSP = artifacts.require("DSP");
+// const GreenMarkTrust = artifacts.require("GreenMarkTrust");
+// const NasiLiquidityPoolFactory = artifacts.require("NasiLiquidityPoolFactory");
+// const INS = artifacts.require("INS");
+// const CryptoGhost = artifacts.require("CryptoGhost");
+// const Vat = artifacts.require("Vat");
+// const Fomp = artifacts.require("Fomp");
+// const SpiritCoin = artifacts.require("UMAFarmingMar");
+ const GFC = artifacts.require("GFC");
 
   module.exports = async function (deployer) {
- //     deployer.deploy(ConvertLib);
+//      deployer.deploy(ConvertLib);
  //     deployer.link(ConvertLib, MetaCoin);
  //     deployer.deploy(MetaCoin);
  //     deployer.link(ConvertLib, MetaCoin2);
@@ -114,7 +122,7 @@
  //     deployer.deploy(PlasmaswapPair);
  //     deployer.deploy(EdenCoin);
  //
-//     const accounts = await web3.eth.getAccounts();
+     const accounts = await web3.eth.getAccounts();
  //    deployer.deploy(Controller, accounts[0]);
  //
  //    deployer.deploy(BOXI, accounts[0], accounts[1], 1);
@@ -131,7 +139,6 @@
 //      deployer.deploy(AavePoolReward);
 //      deployer.deploy(SSTRewards);
 //      deployer.deploy(FairStockEquity, accounts[0], accounts[1], accounts[2], accounts[3], 1);
-//      deployer.deploy(Btspal);
 //      deployer.deploy(BAE, accounts[0]);
 //      deployer.deploy(MisesLegacyPool, accounts[0], accounts[1], 1, 2);
 //      deployer.deploy(StakingDextoken, accounts[0], accounts[1]);
@@ -159,7 +166,6 @@
 //      deployer.deploy(Cover_ZapIn_General_V1, 1);
 //      deployer.deploy(vnxManager);
 //      deployer.deploy(RIT);
-//      deployer.deploy(MerkleAirdrop, "0x0", 1, 1);
 //      deployer.deploy(Straight_Fire_Finance);
 //      deployer.deploy(OnXFinance, "", "", 1);
 //      deployer.deploy(BlueICE);
@@ -167,7 +173,7 @@
 //      deployer.deploy(SLTDStaking);
 //      deployer.deploy(KPLAY);
 //      deployer.deploy(Dipex, "", "", 1);
-      deployer.deploy(Cryptoz);
+//      deployer.deploy(Cryptoz);
 //      deployer.deploy(GUMARewards);
 //      deployer.deploy(Rexona, "", "", 1);
 //      deployer.deploy(POWToken);
@@ -191,4 +197,14 @@
 //      deployer.deploy(MarsStakingRewards, accounts[0], accounts[1], accounts[2]);
 //      deployer.deploy(DMONDETHRewards);
 //      deployer.deploy(QuickToken, accounts[0], accounts[1]);
+//      deployer.deploy(LIBERAPAY);
+//      deployer.deploy(DSP);
+//      deployer.deploy(GreenMarkTrust, 1, "", "");
+//      deployer.deploy(NasiLiquidityPoolFactory, accounts[0], accounts[1], 1, 1 );
+//      deployer.deploy(INS, 1, "", "");
+//      deployer.deploy(CryptoGhost, accounts[0]);
+//      deployer.deploy(Vat);
+//      deployer.deploy(Fomp, accounts[0]);
+//      deployer.deploy(SpiritCoin,  accounts[0],  accounts[1]);
+      deployer.deploy(GFC, 1, "","");
  };

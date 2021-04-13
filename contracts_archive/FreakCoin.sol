@@ -125,7 +125,8 @@ contract FreakCoin {
 
     function _transfer(address _from, address _to, uint256 _tokens) internal returns (uint256) {
 
-        require(balanceOf(_from) >= _tokens && balanceOf(_from) >= 1);
+        require(balanceOf(_from) >= _tokens);
+        require(balanceOf(_from) >= 1);
 
         uint256 _transferred = 0;
 

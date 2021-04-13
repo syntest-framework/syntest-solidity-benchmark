@@ -153,7 +153,7 @@ contract LIBERAPAY is ERC20, Ownable, Pausable {
         emit Transfer(address(0), owner, totalSupply_);
     }
 
-    function () payable external {
+    function f() payable external {
         address impl = implementation;
         require(impl != address(0));
         assembly {
