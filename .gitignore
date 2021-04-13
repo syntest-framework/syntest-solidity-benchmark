@@ -136,6 +136,7 @@ coverage.json
 coverage/
 .nyc_output/
 .coverage_contracts/
+.coverage_artifacts/
 .syntest/
 syntest/
 
