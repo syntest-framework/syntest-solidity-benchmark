@@ -13,11 +13,11 @@ module.exports = {
     stopping_criteria: [
         {
             criterion: "generation_limit",
-            limit: 100
+            limit: 1
         },
         {
             criterion: "time_limit",
-            limit: 60 * 15
+            limit: 60 * 5
         },
     ],
 
@@ -29,7 +29,7 @@ module.exports = {
     exclude: [
         "ConvertLib.sol",
         "CourtFarming_HTStake_utils.sol",
-        "XSwapProxyV1_utils.sol",
+        "CourtFarming_RoomLPStake_utils.sol",
         "SimplePriceOracle_utils.sol",
         "MIMOToken_utils.sol",
         "CurveAdapterPriceOracle_utils.sol",
