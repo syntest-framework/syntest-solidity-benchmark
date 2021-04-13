@@ -21,6 +21,8 @@ module.exports = {
         },
     ],
 
+    probe_objective: true,
+
     // logging
     console_log_level: "info",
     log_to_file: ["info", "warn", "error"],
