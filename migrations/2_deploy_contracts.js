@@ -1,6 +1,6 @@
- // const ConvertLib = artifacts.require("ConvertLib");
- // const MetaCoin = artifacts.require("MetaCoin");
- // const MetaCoin2 = artifacts.require("MetaCoin2");
+const ConvertLib = artifacts.require("ConvertLib");
+const MetaCoin = artifacts.require("MetaCoin");
+const MetaCoin2 = artifacts.require("MetaCoin2");
  // const DosOneFunc = artifacts.require("DosOneFunc");
  // const Dynamic = artifacts.require("Dynamic");
  // const HTDD_contract = artifacts.require("HTDD_contract");
@@ -98,14 +98,14 @@
 // const Vat = artifacts.require("Vat");
 // const Fomp = artifacts.require("Fomp");
 // const SpiritCoin = artifacts.require("UMAFarmingMar");
- const GFC = artifacts.require("GFC");
+// const GFC = artifacts.require("GFC");
 
   module.exports = async function (deployer) {
-//      deployer.deploy(ConvertLib);
- //     deployer.link(ConvertLib, MetaCoin);
- //     deployer.deploy(MetaCoin);
- //     deployer.link(ConvertLib, MetaCoin2);
- //     deployer.deploy(MetaCoin2);
+      deployer.deploy(ConvertLib);
+      deployer.link(ConvertLib, MetaCoin);
+      deployer.deploy(MetaCoin);
+      deployer.link(ConvertLib, MetaCoin2);
+      deployer.deploy(MetaCoin2);
  //
  //     deployer.deploy(DosOneFunc);
  //     deployer.deploy(Dynamic);
@@ -206,5 +206,5 @@
 //      deployer.deploy(Vat);
 //      deployer.deploy(Fomp, accounts[0]);
 //      deployer.deploy(SpiritCoin,  accounts[0],  accounts[1]);
-      deployer.deploy(GFC, 1, "","");
+//      deployer.deploy(GFC, 1, "","");
  };
