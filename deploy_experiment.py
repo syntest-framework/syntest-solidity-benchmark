@@ -14,7 +14,7 @@ configuration_path = "./experiment/configurations"
 configuration_files = [f for f in os.listdir(configuration_path) if os.path.isfile(os.path.join(configuration_path, f))]
 
 repetitions = 10
-parallel = 4
+parallel = 2
 
 num_of_configurations = repetitions * parallel * len(configuration_files)
 
