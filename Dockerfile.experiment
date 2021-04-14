@@ -1,4 +1,4 @@
-FROM node:15.12
+FROM node:14
 
 WORKDIR /app
 
@@ -6,14 +6,15 @@ WORKDIR /app
 RUN npm install -g truffle
 
 WORKDIR /app/syntest-framework
+COPY ./syntest-framework .
 RUN npm install
 RUN npm run build
 
 WORKDIR /app/syntest-solidity
+COPY ./syntest-solidity .
 RUN npm install
 RUN npm run build
 
 WORKDIR /app/syntest-solidity-benchmark
-RUN npm install
 
 CMD [ "node", "runner.js" ]
