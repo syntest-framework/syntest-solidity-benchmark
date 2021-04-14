@@ -41,13 +41,14 @@ for i in range(1, repetitions + 1):
             os.makedirs(run_directory + "/migrations")
             shutil.copyfile("migrations/1_initial_migration.js", run_directory + "/migrations/1_initial_migration.js")
             os.makedirs(run_directory + "/contracts")
+            os.makedirs(run_directory + "/benchmark")
 
-            shutil.copyfile("./experiment/configurations/" + configuration_files[k - 1], run_directory + "/configuration.json")
+            shutil.copyfile("./experiment/configurations/" + configuration_files[k - 1], run_directory + "/configurations.json")
 
             for l in range(0, len(benchmark_contracts)):
                 if (l % parallel == (j - 1)):
-                    os.makedirs(run_directory + "/contracts/" + benchmark_contracts[l])
-                    copytree("benchmark/" + benchmark_contracts[l], run_directory + "/contracts/" + benchmark_contracts[l])
+                    os.makedirs(run_directory + "/benchmark/" + benchmark_contracts[l])
+                    copytree("benchmark/" + benchmark_contracts[l], run_directory + "/benchmark/" + benchmark_contracts[l])
 
 
             counter += 1
