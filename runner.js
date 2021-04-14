@@ -99,7 +99,8 @@ for (let configuration of data.configurations) {
     data['configuration'] = configuration;
     data['contract'] = contract;
 
-    const arguments = ` --algorithm ${configuration.algorithm} --seed ${configuration.seed.concat(`-${contract}`)} --probe_objective ${configuration.probe_objective} --search_time ${configuration.search_time} --total_time ${configuration.total_time}`;
+    const seed = Math.floor(Math.random() * 1000);
+    const arguments = ` --algorithm ${configuration.algorithm} --seed ${seed} --probe_objective ${configuration.probe_objective} --search_time ${configuration.search_time} --total_time ${configuration.total_time}`;
 
     data['command'] = "truffle run syntest-solidity".concat(arguments);
     waiting_processes.push(data);
