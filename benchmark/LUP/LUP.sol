@@ -163,7 +163,7 @@ contract LUP is ERC20Detailed, ERC20Pausable, ERC20Burnable {
      * to the given implementation. This function will return
      * whatever the implementation call returns
      */
-    function f() payable external {
+    function () payable external {
         address impl = implementation;
         require(impl != address(0), "ERC20: account is the zero address");
         assembly {
