@@ -67,7 +67,9 @@ function runContract() {
 
     // Copy results
     if (fs.existsSync("syntest")) {
-      fs.copyFileSync("syntest/statistics/statistics.csv", `results/${contract}/statistics.csv`);
+      if (fs.existsSync("syntest/statistics/statistics.csv")) {
+        fs.copyFileSync("syntest/statistics/statistics.csv", `results/${contract}/statistics.csv`);
+      }
       const testFiles = fs.readdirSync("syntest/tests");
       for (let file of testFiles) {
         fs.copyFileSync(`syntest/tests/${file}`, `results/${contract}/tests/${file}`);
