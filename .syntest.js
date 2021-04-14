@@ -10,16 +10,9 @@ module.exports = {
     explore_illegal_values: false,
 
     algorithm: "DynaMOSA",
-    stopping_criteria: [
-        {
-            criterion: "generation_limit",
-            limit: 1
-        },
-        {
-            criterion: "time_limit",
-            limit: 60 * 5
-        },
-    ],
+    search_time: 300,
+    total_time: 3600,
+    iteration_budget: 1000,
 
     probe_objective: true,
 
