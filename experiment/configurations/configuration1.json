@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "algorithm": "DynaMOSA",
+      "seed": "1000",
+      "search_time": 3600,
+      "total_time": 900,
+      "probe_objective": true
+    }
+  ]
+}
