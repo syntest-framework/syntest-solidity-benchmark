@@ -2,7 +2,7 @@
   "configurations": [
     {
       "algorithm": "DynaMOSA",
-      "seed": "3000",
+      "seed": "2000",
       "search_time": 3600,
       "total_time": 900,
       "probe_objective": false
