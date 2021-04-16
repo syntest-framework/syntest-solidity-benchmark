@@ -69,6 +69,8 @@ function runContract() {
     if (fs.existsSync("syntest")) {
       if (fs.existsSync("syntest/statistics/statistics.csv")) {
         fs.copyFileSync("syntest/statistics/statistics.csv", `results/${contract}/statistics.csv`);
+      } else {
+        console.log("No statistics.csv");
       }
 
       if (fs.existsSync("syntest/tests")) {
@@ -76,13 +78,20 @@ function runContract() {
         for (let file of testFiles) {
           fs.copyFileSync(`syntest/tests/${file}`, `results/${contract}/tests/${file}`);
         }
+      } else {
+        console.log("No tests");
       }
+    } else {
+      console.log("No results directory");
     }
 
     const tmpFiles = fs.readdirSync("/tmp");
     for (let file of tmpFiles) {
-      if (file.startsWith("tmp-"))
+      if (file.startsWith("tmp-")) {
         fs.rmSync(`/tmp/${file}`, { recursive: true, force: true });
+        console.log("Deleting tmp directory");
+      }
+
     }
 
     // Repeat
