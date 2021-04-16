@@ -79,6 +79,12 @@ function runContract() {
       }
     }
 
+    const tmpFiles = fs.readdirSync("/tmp");
+    for (let file of tmpFiles) {
+      if (file.startsWith("tmp-"))
+        fs.rmSync(`/tmp/${file}`, { recursive: true, force: true });
+    }
+
     // Repeat
     setTimeout(runContract, 10 * 1000);
   });
