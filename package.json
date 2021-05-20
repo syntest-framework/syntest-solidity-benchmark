@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "truffle run syntest-solidity"
+    "run": "truffle run syntest-solidity",
+    "run-standalone": "syntest-solidity"
   },
   "homepage": "https://github.com/syntest-framework/syntest-solidity-benchmark",
   "repository": {

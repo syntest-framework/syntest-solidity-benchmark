@@ -10,8 +10,8 @@ module.exports = {
     explore_illegal_values: false,
 
     algorithm: "DynaMOSA",
-    search_time: 300,
-    total_time: 3600,
+    search_time: 60,
+    total_time: 60,
     iteration_budget: 1000,
 
     probe_objective: true,
@@ -21,6 +21,7 @@ module.exports = {
     log_to_file: ["info", "warn", "error"],
     exclude: [
         "ConvertLib.sol",
+        "Migrations.sol",
         "CourtFarming_HTStake_utils.sol",
         "CourtFarming_RoomLPStake_utils.sol",
         "SimplePriceOracle_utils.sol",
@@ -54,6 +55,7 @@ module.exports = {
         "CryptoGhost_utils.sol",
         "RootChain_utils.sol",
         "GFC_utils.sol"
-    ]
+    ],
+    include: ["./contracts/**/*.sol"]
 }
 
