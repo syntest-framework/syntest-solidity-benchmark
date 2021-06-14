@@ -17,7 +17,6 @@ module.exports = {
   //    network_id: "*"
   //  }
   // },
-  //
-
-    plugins: ["syntest-solidity"]
+  test_directory: "syntest/tests",
+  plugins: ["syntest-solidity", "solidity-coverage"]
 };
