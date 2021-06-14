@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "run": "truffle run syntest-solidity",
+    "run-standalone": "syntest-solidity",
     "coverage": "truffle run coverage"
   },
   "homepage": "https://github.com/syntest-framework/syntest-solidity-benchmark",
