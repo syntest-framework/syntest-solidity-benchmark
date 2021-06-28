@@ -10,11 +10,12 @@ module.exports = {
     explore_illegal_values: false,
 
     algorithm: "DynaMOSA",
-    search_time: 60,
-    total_time: 60,
+    search_time: 120,
+    total_time: 300,
     iteration_budget: 1000,
 
     probe_objective: true,
+    modifier_extraction: true,
 
     // logging
     console_log_level: "info",
