@@ -135,8 +135,8 @@ package-lock.json
 coverage.json
 coverage/
 .nyc_output/
-.coverage_contracts/
-.coverage_artifacts/
+.syntest_contracts/
+.syntest_artifacts/
 .syntest/
 syntest/
 
