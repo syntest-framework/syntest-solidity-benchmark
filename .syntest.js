@@ -1,5 +1,4 @@
 module.exports = {
-    seed: 'test',
     population_size: 10,
     max_depth: 5,
 
