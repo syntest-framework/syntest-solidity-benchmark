@@ -24,7 +24,6 @@ module.exports = {
     log_to_file: ["info", "warn", "error"],
     exclude: [
         "./contracts/ConvertLib.sol",
-        "./contracts/Migrations.sol",
         "./contracts/CourtFarming_HTStake_utils.sol",
         "./contracts/CourtFarming_RoomLPStake_utils.sol",
         "./contracts/SimplePriceOracle_utils.sol",
