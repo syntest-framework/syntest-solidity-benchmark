@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "solidity-coverage": "^0.7.16",
-    "syntest-solidity": "file:../syntest-solidity"
-  },
-  "devDependencies": {}
+    "syntest-solidity": "file:../syntest-solidity",
+    "truffle": "^5.3.14"
+  }
 }
