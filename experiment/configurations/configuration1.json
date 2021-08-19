@@ -2,10 +2,12 @@
   "configurations": [
     {
       "algorithm": "DynaMOSA",
-      "seed": "1000",
       "search_time": 3600,
-      "total_time": 900,
-      "probe_objective": true
+      "total_time": 1800,
+      "probe_objective": true,
+      "modifier_extraction": true,
+      "constant_pool": false,
+      "constant_pool_probability": 0.5
     }
   ]
 }

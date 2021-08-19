@@ -20,15 +20,15 @@ function runContract() {
   for (let file of runFiles) {
     fs.unlinkSync(`contracts/${file}`);
   }
-  if (fs.existsSync("migrations/2_deploy_contracts.js")) {
-    fs.unlinkSync("migrations/2_deploy_contracts.js");
-  }
+  // if (fs.existsSync("migrations/2_deploy_contracts.js")) {
+  //   fs.unlinkSync("migrations/2_deploy_contracts.js");
+  // }
   fs.rmSync("syntest", { recursive: true, force: true });
   fs.rmSync(".syntest", { recursive: true, force: true });
 
   // Copy in new files
   console.log("Copying in new files");
-  fs.copyFileSync("Migrations.sol", "contracts/Migrations.sol");
+  // fs.copyFileSync("Migrations.sol", "contracts/Migrations.sol");
 
   const files = fs.readdirSync(`benchmark/${contract}`);
   for (let file of files) {
@@ -38,10 +38,10 @@ function runContract() {
       case "sol":
         fs.copyFileSync(`benchmark/${contract}/${file}`, `contracts/${file}`)
         break;
-      case "js":
-        if (file === "2_deploy_contracts.js")
-          fs.copyFileSync(`benchmark/${contract}/${file}`, `migrations/${file}`)
-        break;
+      // case "js":
+      //   if (file === "2_deploy_contracts.js")
+      //     fs.copyFileSync(`benchmark/${contract}/${file}`, `migrations/${file}`)
+      //   break;
     }
   }
 
@@ -71,6 +71,12 @@ function runContract() {
         fs.copyFileSync("syntest/statistics/statistics.csv", `results/${contract}/statistics.csv`);
       } else {
         console.log("No statistics.csv");
+      }
+
+      if (fs.existsSync("syntest/statistics/coverage.csv")) {
+        fs.copyFileSync("syntest/statistics/coverage.csv", `results/${contract}/coverage.csv`);
+      } else {
+        console.log("No coverage.csv");
       }
 
       if (fs.existsSync("syntest/tests")) {
@@ -118,7 +124,7 @@ for (let configuration of data.configurations) {
     data['contract'] = contract;
 
     const seed = Math.floor(Math.random() * 1000);
-    const arguments = ` --algorithm ${configuration.algorithm} --seed ${seed} --probe_objective ${configuration.probe_objective} --search_time ${configuration.search_time} --total_time ${configuration.total_time}`;
+    const arguments = ` --algorithm ${configuration.algorithm} --seed ${seed} --probe_objective ${configuration.probe_objective} --modifier_extraction ${configuration.modifier_extraction} --constant_pool ${configuration.constant_pool} --constant_pool_probability ${configuration.constant_pool_probability} --search_time ${configuration.search_time} --total_time ${configuration.total_time}`;
 
     data['command'] = "truffle run syntest-solidity".concat(arguments);
     waiting_processes.push(data);

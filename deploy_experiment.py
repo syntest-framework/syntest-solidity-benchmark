@@ -34,10 +34,10 @@ for i in range(1, repetitions + 1):
             shutil.copyfile("runner.js", run_directory + "/runner.js")
             shutil.copyfile("truffle-config.js", run_directory + "/truffle-config.js")
             shutil.copyfile("package.json", run_directory + "/package.json")
-            shutil.copyfile("Migrations.sol", run_directory + "/Migrations.sol")
+            #shutil.copyfile("Migrations.sol", run_directory + "/Migrations.sol")
             shutil.copyfile(".syntest.js", run_directory + "/.syntest.js")
-            os.makedirs(run_directory + "/migrations")
-            shutil.copyfile("migrations/1_initial_migration.js", run_directory + "/migrations/1_initial_migration.js")
+            #os.makedirs(run_directory + "/migrations")
+            #shutil.copyfile("migrations/1_initial_migration.js", run_directory + "/migrations/1_initial_migration.js")
             os.makedirs(run_directory + "/contracts")
             os.makedirs(run_directory + "/benchmark")
 
