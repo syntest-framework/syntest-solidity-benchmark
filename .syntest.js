@@ -16,7 +16,7 @@ module.exports = {
 
     probe_objective: true,
     modifier_extraction: true,
-    constant_pool: true,
+    constant_pool: false,
     constant_pool_probability: 0.5,
 
     // logging
