@@ -19,6 +19,8 @@ module.exports = {
     constant_pool: false,
     constant_pool_probability: 0.5,
 
+    target_root_directory: "./contracts",
+
     // logging
     console_log_level: "info",
     log_to_file: ["info", "warn", "error"],
