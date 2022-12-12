@@ -11,13 +11,15 @@ module.exports = {
 
     algorithm: "DynaMOSA",
     search_time: 300,
-    total_time: 60,
+    total_time: 10,
     iteration_budget: 1000,
 
     probe_objective: true,
     modifier_extraction: true,
     constant_pool: false,
     constant_pool_probability: 0.5,
+
+    target_root_directory: './contracts',
 
     // logging
     console_log_level: "info",
