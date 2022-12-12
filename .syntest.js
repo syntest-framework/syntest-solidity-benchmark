@@ -11,7 +11,7 @@ module.exports = {
 
     algorithm: "DynaMOSA",
     search_time: 300,
-    total_time: 5,
+    total_time: 60,
     iteration_budget: 1000,
 
     probe_objective: true,
