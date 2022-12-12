@@ -21,6 +21,8 @@ module.exports = {
 
     target_root_directory: "./contracts",
 
+    solc_compiler_version: "0.5.6",
+
     // logging
     console_log_level: "info",
     log_to_file: ["info", "warn", "error"],
