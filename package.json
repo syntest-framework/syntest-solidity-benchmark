@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "truffle run syntest-solidity",
-    "run-standalone": "syntest-solidity",
+    "standalone": "syntest-solidity",
     "coverage": "truffle run coverage"
   },
   "homepage": "https://github.com/syntest-framework/syntest-solidity-benchmark",
@@ -16,8 +15,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@syntest/solidity": "^0.2.1",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
     "solidity-coverage": "^0.7.16",
-    "syntest-solidity": "file:../syntest-solidity",
     "truffle": "^5.3.14"
   }
 }
