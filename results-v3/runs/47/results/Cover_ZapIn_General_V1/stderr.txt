@@ -1,0 +1,214 @@
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+6IGdCj = await Cover_ZapIn_General_V1L7MR6t._getCoverDetails.call(addressFCfzMX, {from: accounts[1]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at compileFunction (<anonymous>)
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:20
+4MM84M = await Cover_ZapIn_General_V1L7MR6t._getCoverDetails.call(addressU7drnii, {from: accounts[3]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:28
+977JQW = await Cover_ZapIn_General_V1L7MR6t.ZapIn.call(addresszFJz9XH, addressvH7ZW0J, addressDf4b8YB, addresslwQniqB, uintF2htkLw, addressMdJ19B8, addresssTP5Slj, byteHBqC7lJ, {from: accounts[1]});
+^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:40
+4iGSkW = await Cover_ZapIn_General_V1Z1OU11p.ZapIn.call(addressbnp4hEq, addresst1HtDd, addresskn7QbMi, addressfqSR89P, uint3Kw6Bs, addressis66Dgj, addresspTcYBk, bytef7EiVK, {from: accounts[2]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:26
+8WGxN4 = await Cover_ZapIn_General_V1L7MR6t.ZapIn.call(addressEuFThF7, addresstlEPaE, addressDBOPNpc, addresstoPbqzI, uintbMcrwN6, addresstQyeSnj, addressJJ99VjW, byteYyCOcxq, {from: accounts[0]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:29
+37iGT9 = await Cover_ZapIn_General_V13waswI.ZapIn.call(addressLc6tqoK, addressWnJDgIx, addressOUwBmFn, addressauW4Cb, uintd5rB7Ft, addressFdJ02uS, addressuFeQnyi, byteOpiBGpF, {from: accounts[3]});
+^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:25
+1hnSIB = await Cover_ZapIn_General_V1L7MR6t.ZapIn.call(addressCh2km4q, addressdA7iNsD, addressH5JkT7, addressylSeaKt, uintWxs5ZS2, addressDLPQa0V, addressmaxkhnK, byteNRZaW4d, {from: accounts[2]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/testCover_ZapIn_General_V1JrthxV5tI6ejOPPE9ZkY.js:25
+		await fs.writeFileSync('.syntest/logs/JrthxV5tI6ejOPPE9ZkY/
+		                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SoliditySuiteBuilder.<anonymous> (/app/syntest-solidity/src/testbuilding/SoliditySuiteBuilder.ts:94:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testbuilding/SoliditySuiteBuilder.js:6:65)

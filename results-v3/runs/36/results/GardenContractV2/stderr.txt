@@ -1,0 +1,1563 @@
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+		const uint256[2]DJrggLt = await GardenContractV2QEzzJCF.getTotalpTLPHarvest.call(uintU2ebJts, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at compileFunction (<anonymous>)
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+		const uint256[2]n1vsyAq = await GardenContractV255ijFK.getTotalpTLPHarvest.call(uintG4tmMXq, {from: "0x0000000000000000000000000000000000000001"});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+		const uint256[2]DJrggLt = await GardenContractV2QEzzJCF.getTotalpTLPHarvest.call(uintRsE6l58, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+		const uint256[2]DJrggLt = await GardenContractV2QEzzJCF.getTotalpTLPHarvest.call(uintAgRrlzf, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:11
+		const uint256[2]JHrn2t2 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintSQc6qX5, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]NSrH1S7 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintyFJUD5o, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+		const uint256[2]ynRnwSL = await GardenContractV2k0NFz9.getTotalpTLPHarvest.call(uintmwmvFim, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]TGl9Hio = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintNzNVAJA, {from: accounts[5]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]NSPo93P = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintEWq9OAJ, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:18
+		const uint256[2]CVLHCRD = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintxoMtuc0, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]jsV8R1O = await GardenContractV2vApjRdj.getTotalpTLPHarvest.call(uintddhb0FW, {from: accounts[0]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]B8W4Tqq = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintCXcF6t1, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]G7siP4 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintb7eB6IR, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:19
+		const uint256[2]RMAdARO = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintdRT5ZpT, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:19
+		const uint256[2]OQdv8B = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintmLW3c0z, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:18
+		const uint256[2]bTzYPe2 = await GardenContractV2niB6nFa.getTotalpTLPHarvest.call(uintmWoiJWB, {from: accounts[0]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]AxAx1Y5 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintrn9T5tC, {from: accounts[5]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]k2x3PSj = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintex3bWfK, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:16
+		const uint256[2]miZ6Ez = await GardenContractV2VYpxCos.getTotalpTLPHarvest.call(uintW7v14gI, {from: "0x0000000000000000000000000000000000000001"});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:18
+		const uint256[2]SqfwQMK = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintArpP2gr, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:14
+		const uint256[2]gqVh5D = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uinthDj38dw, {from: accounts[0]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:18
+		const uint256[2]3MR5Wr = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintCTO2F33, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:20
+		const uint256[2]Xny2YGo = await GardenContractV2tGoeVVj.getTotalpTLPHarvest.call(uintXHar8Om, {from: "0x0000000000000000000000000000000000000001"});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]lVuPy4D = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintDsOLMCQ, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]PDaAdcq = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintvZqcCWX, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:19
+		const uint256[2]srC9icQ = await GardenContractV2NFSOTtr.getTotalpTLPHarvest.call(uintsAGI7xx, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]fBGdMP2 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintTF8INmA, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]vUurCVk = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintYkxR1As, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]YBq5pqg = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintTf12oR, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+		const uint256[2]pFcTLe = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintOXkYXf6, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]GlF3k4E = await GardenContractV2MFs7hfw.getTotalpTLPHarvest.call(uintROeIwSC, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:14
+		const uint256[2]yGO4CLK = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintpDEBgqm, {from: accounts[0]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]LEufxhU = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintjcIYpJ3, {from: "0x0000000000000000000000000000000000000001"});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]dUiT3wb = await GardenContractV2qOZd4md.getTotalpTLPHarvest.call(uintY43yDJu, {from: "0x0000000000000000000000000000000000000001"});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:22
+		const uint256[2]tanuFzT = await GardenContractV2TTbMhJE.getTotalpTLPHarvest.call(uintMKm65oN, {from: accounts[5]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]QoI1xS5 = await GardenContractV2XHx0QHI.getTotalpTLPHarvest.call(uint8wIlwu, {from: accounts[0]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:19
+		const uint256[2]NThJd8j = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintE3U4POx, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:14
+		const uint256[2]bhktwLz = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintpHsNMZN, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:18
+		const uint256[2]kFi6oW = await GardenContractV2LNxKxW.getTotalpTLPHarvest.call(uintyoOHXqh, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]pdZeeFE = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintiE7YGch, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:20
+		const uint256[2]yTg2iLL = await GardenContractV2XHx0QHI.getTotalpTLPHarvest.call(uintP2d7Vpd, {from: accounts[5]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:16
+		const uint256[2]fK957Nv = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uinttecONJ, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:14
+		const uint256[2]LZiF1GY = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintSZ6iHIo, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]gZHyMph = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintHEOaFOP, {from: accounts[5]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]z2sW1DC = await GardenContractV2potBM97.getTotalpTLPHarvest.call(uintRRfuy8I, {from: accounts[0]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]dl0w2JQ = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintsgbeQJ4, {from: accounts[4]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]y1GW8Ls = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintyzcHKvG, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]AqfHiQD = await GardenContractV2O9K90S.getTotalpTLPHarvest.call(uintEg4e1ah, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:11
+		const uint256[2]An0UxIM = await GardenContractV2wlH6kfs.getTotalpTLPHarvest.call(uintJ736hXr, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]a34oYRZ = await GardenContractV2piqyCg4.getTotalpTLPHarvest.call(uintgioyRNa, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]cOCISQ3 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintUcrD48k, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:14
+		const uint256[2]uegymoz = await GardenContractV2XHx0QHI.getTotalpTLPHarvest.call(uintDQoGb3F, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:16
+		const uint256[2]VjQTdHr = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintPg2XI1m, {from: accounts[2]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+		const uint256[2]pI1GTIA = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintlV4d0m, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+		const uint256[2]uYG6FtS = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintJdEaxRN, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]jnJ7NM4 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintyBGVhvx, {from: accounts[3]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+		const uint256[2]sc3GdH0 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintvV7L27p, {from: accounts[0]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+		const uint256[2]yEvbx56 = await GardenContractV2fcEkDY0.getTotalpTLPHarvest.call(uintYNO0nVj, {from: accounts[1]});
+		      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)

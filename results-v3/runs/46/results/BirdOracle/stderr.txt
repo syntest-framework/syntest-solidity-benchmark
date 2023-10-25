@@ -1,0 +1,484 @@
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:23
+22dJOi = await BirdOracle8wLrv1.updatedChainRequest.call(uint1Bd8iI, uinty1NRUfl, {from: accounts[3]});
+^^
+
+SyntaxError: Invalid or unexpected token
+    at compileFunction (<anonymous>)
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+3FbQ5i = await BirdOraclePiMI4n.updatedChainRequest.call(uintU2BYXrl, uintdmdNsI, {from: accounts[2]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:14
+3r7TcI = await BirdOraclePiMI4n.newChainRequest.call(stringfICPZby, stringRo66nn9, {from: accounts[5]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+6nQvNz = await BirdOraclePiMI4n.updatedChainRequest.call(uintcdOHkgz, uintMsvsZ0C, {from: accounts[0]});
+^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:23
+79i2GN = await BirdOraclePiMI4n.updatedChainRequest.call(uintDtfURLH, uintzRj7x6, {from: accounts[3]});
+^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+6xHQvv = await BirdOracleKwFffk.updatedChainRequest.call(uintlkqNkbW, uintrBGtw6, {from: accounts[1]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:17
+6qRL9r = await BirdOracleDVJJN6I.updatedChainRequest.call(uintWVSWDMN, uinttccaCqe, {from: accounts[0]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:11
+8PxiF6 = await BirdOracleKwFffk.updatedChainRequest.call(uintzUyggw2, uintj3Zz2kJ, {from: accounts[4]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:11
+1lBIiR = await BirdOracleKwFffk.updatedChainRequest.call(uint7jJUgp, uintPbQXsM2, {from: accounts[0]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+8bcw4h = await BirdOracleKwFffk.newChainRequest.call(stringuNF8Dj, stringR8mU07T, {from: accounts[2]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:18
+6FhpOj = await BirdOracleOBU3gC0.updatedChainRequest.call(uintP69VZDx, uintffJDBLk, {from: "0x0000000000000000000000000000000000000001"});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+23tw4m = await BirdOracleKwFffk.newChainRequest.call(stringhWbxFXT, stringNf965sE, {from: accounts[2]});
+^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+1sIY2e = await BirdOracleKwFffk.updatedChainRequest.call(uintRrxEE2, uintfDI61QV, {from: accounts[3]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:14
+9xyLOX = await BirdOracleKwFffk.newChainRequest.call(stringQ1uuly2, stringPzwl8Cg, {from: accounts[4]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:15
+5apu00 = await BirdOracleKwFffk.newChainRequest.call(stringeFA0YB, stringP1vHYIE, {from: accounts[4]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:12
+9PocN4 = await BirdOraclemdhYvl.updatedChainRequest.call(uintJaoyaDL, uintFjfLVe, {from: accounts[1]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:13
+8w17RB = await BirdOracleKwFffk.updatedChainRequest.call(uintW6004EE, uintBtqk0ai, {from: accounts[4]});
+^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at consoleCall (<anonymous>)
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/testBirdOracleQgZZhsFT1hsEpQlkw4rE.js:22
+		await fs.writeFileSync('.syntest/logs/QgZZhsFT1hsEpQlkw4rE/
+		                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at compileFunction (<anonymous>)
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SoliditySuiteBuilder.<anonymous> (/app/syntest-solidity/src/testbuilding/SoliditySuiteBuilder.ts:94:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testbuilding/SoliditySuiteBuilder.js:6:65)

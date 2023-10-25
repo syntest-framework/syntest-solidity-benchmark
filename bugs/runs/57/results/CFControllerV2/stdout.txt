@@ -1,0 +1,119 @@
+[2J[0f  ____                    _                  _   
+ / ___|   _   _   _ __   | |_    ___   ___  | |_ 
+ \___ \  | | | | | '_ \  | __|  / _ \ / __| | __|
+  ___) | | |_| | | | | | | |_  |  __/ \__ \ | |_ 
+ |____/   \__, | |_| |_|  \__|  \___| |___/  \__|
+          |___/                                  
+
+> syntest-solidity: v0.1.2
+
+GENERAL INFO
+
+
+Network Info: 
+> id: soliditycoverage
+> port: *
+> network: 8555
+
+TARGETS
+
+Included:
+=====================
+> CFControllerV2.sol -> *
+> ConvexInterface.sol -> *
+> ICurvePool.sol -> *
+> YieldHandlerInterface.sol -> *
+> IERC20.sol -> *
+> SafeERC20.sol -> *
+> Address.sol -> *
+> AddressArray.sol -> *
+> Ownable.sol -> *
+> SafeMath.sol -> *
+> TransferableToken.sol -> *
+=====================
+
+CONFIGURATION
+
+Seed: 700
+
+Budgets: 
+> Iteration Budget: 1000 iterations
+> Evaluation Budget: 9007199254740991 evaluations
+> Search Time Budget: 3600 seconds
+> Total Time Budget: 900 seconds
+
+Algorithm: 
+> Algorithm: sFuzz
+> Population Size: 10
+
+Variation Probabilities: 
+> Resampling: 0.01
+> Delta mutation: 0.8
+> Re-sampling from chromosome: 0.5
+> Crossover: 0.8
+
+Sampling: 
+> Max Depth: 5
+> Explore Illegal Values: false
+> Sample Function Result as Argument: 0.5
+> Crossover: 0.8
+
+SEARCHING: "CFControllerV2.sol": "CFControllerV2"
+
+Consumed 0.3939998149871826s over the allocated search time
+Consumed 0.39800000190734863s over the allocated search time
+Consumed 0.39800000190734863s over the allocated search time
+Consumed 0.39800000190734863s over the allocated search time
+
+SEARCHING: "CFControllerV2.sol": "CFControllerV2Factory"
+
+Consumed 0.9140000343322754s over the allocated search time
+Consumed 0.9160001277923584s over the allocated search time
+Consumed 0.9170000553131104s over the allocated search time
+Consumed 0.9170000553131104s over the allocated search time
+
+SEARCHING: "ConvexInterface.sol": "ConvexRewardInterface"
+
+Consumed 0.32399988174438477s over the allocated search time
+Consumed 0.3250000476837158s over the allocated search time
+Consumed 0.3250000476837158s over the allocated search time
+Consumed 0.3250000476837158s over the allocated search time
+
+SEARCHING: "ConvexInterface.sol": "ConvexBoosterInterface"
+
+Consumed 0.3249998092651367s over the allocated search time
+Consumed 0.3259999752044678s over the allocated search time
+Consumed 0.3259999752044678s over the allocated search time
+Consumed 0.3259999752044678s over the allocated search time
+
+SEARCHING: "ICurvePool.sol": "ICurvePool"
+
+Consumed 0.5060000419616699s over the allocated search time
+Consumed 0.5069999694824219s over the allocated search time
+Consumed 0.5069999694824219s over the allocated search time
+Consumed 0.5069999694824219s over the allocated search time
+
+SEARCHING: "YieldHandlerInterface.sol": "YieldHandlerInterface"
+
+Consumed 0.3880000114440918s over the allocated search time
+Consumed 0.38899993896484375s over the allocated search time
+Consumed 0.38899993896484375s over the allocated search time
+Consumed 0.38899993896484375s over the allocated search time
+
+SEARCHING: "IERC20.sol": "IERC20"
+
+Consumed 2.38100004196167s over the allocated search time
+Consumed 2.382000207901001s over the allocated search time
+Consumed 2.382000207901001s over the allocated search time
+Consumed 2.382000207901001s over the allocated search time
+
+SEARCHING: "SafeERC20.sol": "SafeERC20"
+
+Skipping 'SafeERC20' no possible function calls found!
+
+SEARCHING: "Address.sol": "Address"
+
+Skipping 'Address' no possible function calls found!
+
+SEARCHING: "AddressArray.sol": "AddressArray"
+

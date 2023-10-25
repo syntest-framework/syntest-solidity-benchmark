@@ -1,0 +1,24 @@
+{
+  "name": "syntest-solidity-benchmark",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "truffle run @syntest/solidity",
+    "run-standalone": "syntest-solidity",
+    "coverage": "truffle run coverage"
+  },
+  "homepage": "https://github.com/syntest-framework/syntest-solidity-benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syntest-framework/syntest-solidity-benchmark"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@syntest/solidity": "file:../syntest-solidity",
+    "fs-extra": "^10.0.0",
+    "solidity-coverage": "^0.7.16",
+    "truffle": "^5.3.14"
+  }
+}

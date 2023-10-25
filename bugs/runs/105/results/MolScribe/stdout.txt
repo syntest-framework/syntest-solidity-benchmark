@@ -1,0 +1,144 @@
+[2J[0f  ____                    _                  _   
+ / ___|   _   _   _ __   | |_    ___   ___  | |_ 
+ \___ \  | | | | | '_ \  | __|  / _ \ / __| | __|
+  ___) | | |_| | | | | | | |_  |  __/ \__ \ | |_ 
+ |____/   \__, | |_| |_|  \__|  \___| |___/  \__|
+          |___/                                  
+
+> syntest-solidity: v0.1.2
+
+GENERAL INFO
+
+
+Network Info: 
+> id: soliditycoverage
+> port: *
+> network: 8555
+
+TARGETS
+
+Included:
+=====================
+> MolScribe.sol -> *
+=====================
+
+CONFIGURATION
+
+Seed: 656
+
+Budgets: 
+> Iteration Budget: 1000 iterations
+> Evaluation Budget: 9007199254740991 evaluations
+> Search Time Budget: 3600 seconds
+> Total Time Budget: 900 seconds
+
+Algorithm: 
+> Algorithm: sFuzz
+> Population Size: 10
+
+Variation Probabilities: 
+> Resampling: 0.01
+> Delta mutation: 0.8
+> Re-sampling from chromosome: 0.5
+> Crossover: 0.8
+
+Sampling: 
+> Max Depth: 5
+> Explore Illegal Values: false
+> Sample Function Result as Argument: 0.5
+> Crossover: 0.8
+
+SEARCHING: "MolScribe.sol": "Context"
+
+Skipping 'Context' no possible function calls found!
+
+SEARCHING: "MolScribe.sol": "Ownable"
+
+Consumed 1.2990000247955322s over the allocated search time
+Consumed 1.3030002117156982s over the allocated search time
+Consumed 1.3030002117156982s over the allocated search time
+Consumed 1.3030002117156982s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "IERC165"
+
+Consumed 0.2950000762939453s over the allocated search time
+Consumed 0.2969999313354492s over the allocated search time
+Consumed 0.2969999313354492s over the allocated search time
+Consumed 0.2969999313354492s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "IERC721"
+
+Consumed 1.0820000171661377s over the allocated search time
+Consumed 1.0840001106262207s over the allocated search time
+Consumed 1.0840001106262207s over the allocated search time
+Consumed 1.0840001106262207s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "IERC721Receiver"
+
+Consumed 1.2020001411437988s over the allocated search time
+Consumed 1.2039999961853027s over the allocated search time
+Consumed 1.2039999961853027s over the allocated search time
+Consumed 1.2039999961853027s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "SafeMath"
+
+Skipping 'SafeMath' no possible function calls found!
+
+SEARCHING: "MolScribe.sol": "Address"
+
+Skipping 'Address' no possible function calls found!
+
+SEARCHING: "MolScribe.sol": "Counters"
+
+Skipping 'Counters' no possible function calls found!
+
+SEARCHING: "MolScribe.sol": "ERC165"
+
+Consumed 2.0180001258850098s over the allocated search time
+Consumed 2.0190000534057617s over the allocated search time
+Consumed 2.0190000534057617s over the allocated search time
+Consumed 2.0190000534057617s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "ERC721"
+
+Consumed 2.2130000591278076s over the allocated search time
+Consumed 2.2139999866485596s over the allocated search time
+Consumed 2.2139999866485596s over the allocated search time
+Consumed 2.2139999866485596s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "IERC721Metadata"
+
+Consumed 1.8299999237060547s over the allocated search time
+Consumed 1.8320000171661377s over the allocated search time
+Consumed 1.8320000171661377s over the allocated search time
+Consumed 1.8320000171661377s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "ERC721Metadata"
+
+Consumed 0.1960000991821289s over the allocated search time
+Consumed 0.1979999542236328s over the allocated search time
+Consumed 0.1979999542236328s over the allocated search time
+Consumed 0.1979999542236328s over the allocated search time
+
+SEARCHING: "MolScribe.sol": "Utilities"
+
+Skipping 'Utilities' no possible function calls found!
+
+SEARCHING: "MolScribe.sol": "MolScribe"
+
+Consumed 2.509999990463257s over the allocated search time
+Consumed 2.511000156402588s over the allocated search time
+Consumed 2.511000156402588s over the allocated search time
+Consumed 2.511000156402588s over the allocated search time
+
+SEARCH RESULTS
+
+----------------|----------|----------|----------|----------|----------------|
+File            |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------|----------|----------|----------|----------|----------------|
+ contracts/     |        0 |        0 |        0 |        0 |                |
+  MolScribe.sol |        0 |        0 |        0 |        0 |... 0,1145,1147 |
+----------------|----------|----------|----------|----------|----------------|
+All files       |        0 |        0 |        0 |        0 |                |
+----------------|----------|----------|----------|----------|----------------|
+

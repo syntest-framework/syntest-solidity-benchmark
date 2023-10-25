@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "algorithm": "DynaMOSA",
+      "search_time": 3600,
+      "total_time": 900,
+      "probe_objective": false,
+      "modifier_extraction": false,
+      "constant_pool": false,
+      "constant_pool_probability": 0.5
+    }
+  ]
+}

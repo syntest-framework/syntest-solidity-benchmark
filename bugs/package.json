@@ -1,0 +1,12 @@
+{
+  "name": "syntest-solidity-benchmark",
+  "version": "0.0.1",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "4.3.4",
+    "chai-as-promised": "7.1.1",
+    "solidity-coverage": "0.7.16",
+    "fs-extra": "10.0.0"
+  }
+}

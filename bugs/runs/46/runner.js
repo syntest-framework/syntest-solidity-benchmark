@@ -1,0 +1,122 @@
+const { exec } = require('child_process');
+const fs = require('fs');
+const fse = require('fs-extra');
+const data = require("./configurations.json");
+
+let waiting_processes = [];
+let running_processes = new Set();
+
+function runContract() {
+  if (waiting_processes.length === 0)
+    return
+
+  const data = waiting_processes.shift();
+  const configuration = data.configuration;
+  const contract = data.contract;
+  const command = data.command;
+
+  // Delete old files
+  console.log("Deleting old files")
+  fse.emptyDirSync("contracts");
+  fs.rmSync("syntest", { recursive: true, force: true });
+  fs.rmSync(".syntest", { recursive: true, force: true });
+
+  // Copy in new files
+  console.log("Copying in new files");
+  fse.copySync(`benchmark/${contract}`, "contracts");
+
+  // Run contract
+  const child = exec(command, {cwd: "./"}, (error, stdout, stderr) => {
+    const pid = child.pid;
+
+    console.log(`stopping ${pid}`);
+    running_processes.delete(pid);
+
+    if (error) {
+      console.error(`${pid} error: ${error}`);
+    }
+    //console.log(`${pid} stdout: ${stdout}`);
+    //console.error(`${pid} stderr: ${stderr}`);
+
+    // Create results dir
+    fs.mkdirSync(`results/${contract}`);
+    fs.mkdirSync(`results/${contract}/tests`);
+
+    fs.writeFileSync(`results/${contract}/stdout.txt`, stdout)
+    fs.writeFileSync(`results/${contract}/stderr.txt`, stderr)
+
+    // Copy results
+    if (fs.existsSync("syntest")) {
+      if (fs.existsSync("syntest/statistics/statistics.csv")) {
+        fs.copyFileSync("syntest/statistics/statistics.csv", `results/${contract}/statistics.csv`);
+      } else {
+        console.log("No statistics.csv");
+      }
+
+      if (fs.existsSync("syntest/statistics/coverage.csv")) {
+        fs.copyFileSync("syntest/statistics/coverage.csv", `results/${contract}/coverage.csv`);
+      } else {
+        console.log("No coverage.csv");
+      }
+
+      if (fs.existsSync("syntest/tests")) {
+	fse.copySync(`syntest/tests`, `results/${contract}/tests/`);
+      } else {
+        console.log("No tests");
+      }
+    } else {
+      console.log("No results directory");
+    }
+
+    const tmpFiles = fs.readdirSync("/tmp");
+    for (let file of tmpFiles) {
+      if (file.startsWith("tmp-")) {
+        fs.rmSync(`/tmp/${file}`, { recursive: true, force: true });
+        console.log("Deleting tmp directory");
+      }
+
+    }
+
+    // Repeat
+    setTimeout(runContract, 10 * 1000);
+  });
+
+  const pid = child.pid;
+  console.log(`starting ${pid} with command: ${command}`);
+  running_processes.add(pid);
+}
+
+if (!fs.existsSync("contracts")) {
+  fs.mkdirSync("contracts");
+}
+
+fs.mkdirSync("results");
+
+const contracts = fs.readdirSync("benchmark");
+
+for (let configuration of data.configurations) {
+  for (let contract of contracts) {
+    let data = {};
+    data['configuration'] = configuration;
+    data['contract'] = contract;
+
+    const seed = Math.floor(Math.random() * 1000);
+    const arguments = ` --algorithm ${configuration.algorithm} --seed ${seed} --probe_objective ${configuration.probe_objective} --modifier_extraction ${configuration.modifier_extraction} --constant_pool ${configuration.constant_pool} --constant_pool_probability ${configuration.constant_pool_probability} --search_time ${configuration.search_time} --total_time ${configuration.total_time}`;
+
+    data['command'] = "truffle run @syntest/solidity".concat(arguments);
+    waiting_processes.push(data);
+  }
+}
+
+runContract();
+
+function trackProgress() {
+  if (waiting_processes.length > 0) {
+    console.log(`Waiting on ${running_processes.size} processes to finish:`);
+    console.log(running_processes);
+    console.log(`${waiting_processes.length} configurations still to go`);
+    setTimeout(trackProgress, 10 * 1000);
+  }
+}
+
+trackProgress();

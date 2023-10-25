@@ -1,0 +1,14 @@
+FROM node:14
+
+WORKDIR /app
+
+# Install Truffle and Solidity Coverage
+RUN npm install -g truffle
+
+COPY package.json .
+RUN npm install
+
+COPY truffle-config.js .
+COPY runner-mutants.js .
+
+CMD [ "node", "runner.js" ]

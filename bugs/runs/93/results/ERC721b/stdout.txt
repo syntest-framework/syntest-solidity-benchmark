@@ -1,0 +1,121 @@
+[2J[0f  ____                    _                  _   
+ / ___|   _   _   _ __   | |_    ___   ___  | |_ 
+ \___ \  | | | | | '_ \  | __|  / _ \ / __| | __|
+  ___) | | |_| | | | | | | |_  |  __/ \__ \ | |_ 
+ |____/   \__, | |_| |_|  \__|  \___| |___/  \__|
+          |___/                                  
+
+> syntest-solidity: v0.1.2
+
+GENERAL INFO
+
+
+Network Info: 
+> id: soliditycoverage
+> port: *
+> network: 8555
+
+TARGETS
+
+Included:
+=====================
+> ERC721.sol -> *
+> IERC721.sol -> *
+> IERC721Receiver.sol -> *
+> Counters.sol -> *
+> ERC165.sol -> *
+> IERC165.sol -> *
+> SafeMath.sol -> *
+> Address.sol -> *
+=====================
+
+CONFIGURATION
+
+Seed: 623
+
+Budgets: 
+> Iteration Budget: 1000 iterations
+> Evaluation Budget: 9007199254740991 evaluations
+> Search Time Budget: 3600 seconds
+> Total Time Budget: 900 seconds
+
+Algorithm: 
+> Algorithm: sFuzz
+> Population Size: 10
+
+Variation Probabilities: 
+> Resampling: 0.01
+> Delta mutation: 0.8
+> Re-sampling from chromosome: 0.5
+> Crossover: 0.8
+
+Sampling: 
+> Max Depth: 5
+> Explore Illegal Values: false
+> Sample Function Result as Argument: 0.5
+> Crossover: 0.8
+
+SEARCHING: "ERC721.sol": "ERC721"
+
+Consumed 0.2239997386932373s over the allocated search time
+Consumed 0.22699975967407227s over the allocated search time
+Consumed 0.22699975967407227s over the allocated search time
+Consumed 0.22699975967407227s over the allocated search time
+
+SEARCHING: "IERC721.sol": "IERC721"
+
+Consumed 0.03099989891052246s over the allocated search time
+Consumed 0.031999826431274414s over the allocated search time
+Consumed 0.031999826431274414s over the allocated search time
+Consumed 0.031999826431274414s over the allocated search time
+
+SEARCHING: "IERC721Receiver.sol": "IERC721Receiver"
+
+Consumed 0.008999824523925781s over the allocated search time
+Consumed 0.008999824523925781s over the allocated search time
+Consumed 0.009999990463256836s over the allocated search time
+
+SEARCHING: "Counters.sol": "Counters"
+
+Skipping 'Counters' no possible function calls found!
+
+SEARCHING: "ERC165.sol": "ERC165"
+
+Consumed 0.07899999618530273s over the allocated search time
+Consumed 0.07899999618530273s over the allocated search time
+Consumed 0.07899999618530273s over the allocated search time
+Consumed 0.07899999618530273s over the allocated search time
+
+SEARCHING: "IERC165.sol": "IERC165"
+
+
+SEARCHING: "SafeMath.sol": "SafeMath"
+
+Skipping 'SafeMath' no possible function calls found!
+
+SEARCHING: "Address.sol": "Address"
+
+Skipping 'Address' no possible function calls found!
+
+SEARCH RESULTS
+
+--------------------------|----------|----------|----------|----------|----------------|
+File                      |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+--------------------------|----------|----------|----------|----------|----------------|
+ contracts/               |        0 |        0 |        0 |        0 |                |
+  ERC721.sol              |        0 |        0 |        0 |        0 |... 334,342,343 |
+  IERC721.sol             |      100 |      100 |      100 |      100 |                |
+  IERC721Receiver.sol     |      100 |      100 |      100 |      100 |                |
+ contracts/drafts/        |        0 |      100 |        0 |        0 |                |
+  Counters.sol            |        0 |      100 |        0 |        0 |       27,31,35 |
+ contracts/introspection/ |        0 |        0 |        0 |        0 |                |
+  ERC165.sol              |        0 |        0 |        0 |        0 |    25,34,49,50 |
+  IERC165.sol             |      100 |      100 |      100 |      100 |                |
+ contracts/math/          |        0 |        0 |        0 |        0 |                |
+  SafeMath.sol            |        0 |        0 |        0 |        0 |... ,89,104,105 |
+ contracts/utils/         |        0 |      100 |        0 |        0 |                |
+  Address.sol             |        0 |      100 |        0 |        0 | 26,27,29,30,38 |
+--------------------------|----------|----------|----------|----------|----------------|
+All files                 |        0 |        0 |        0 |        0 |                |
+--------------------------|----------|----------|----------|----------|----------------|
+

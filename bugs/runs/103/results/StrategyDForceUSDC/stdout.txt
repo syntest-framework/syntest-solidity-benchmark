@@ -1,0 +1,88 @@
+[2J[0f  ____                    _                  _   
+ / ___|   _   _   _ __   | |_    ___   ___  | |_ 
+ \___ \  | | | | | '_ \  | __|  / _ \ / __| | __|
+  ___) | | |_| | | | | | | |_  |  __/ \__ \ | |_ 
+ |____/   \__, | |_| |_|  \__|  \___| |___/  \__|
+          |___/                                  
+
+> syntest-solidity: v0.1.2
+
+GENERAL INFO
+
+
+Network Info: 
+> id: soliditycoverage
+> port: *
+> network: 8555
+
+TARGETS
+
+Included:
+=====================
+> StrategyDForceUSDC.sol -> *
+> IController.sol -> *
+> Rewards.sol -> *
+> Token.sol -> *
+> Uni.sol -> *
+> Address.sol -> *
+> IERC20.sol -> *
+> SafeERC20.sol -> *
+> SafeMath.sol -> *
+=====================
+
+CONFIGURATION
+
+Seed: 604
+
+Budgets: 
+> Iteration Budget: 1000 iterations
+> Evaluation Budget: 9007199254740991 evaluations
+> Search Time Budget: 3600 seconds
+> Total Time Budget: 900 seconds
+
+Algorithm: 
+> Algorithm: sFuzz
+> Population Size: 10
+
+Variation Probabilities: 
+> Resampling: 0.01
+> Delta mutation: 0.8
+> Re-sampling from chromosome: 0.5
+> Crossover: 0.8
+
+Sampling: 
+> Max Depth: 5
+> Explore Illegal Values: false
+> Sample Function Result as Argument: 0.5
+> Crossover: 0.8
+
+SEARCHING: "StrategyDForceUSDC.sol": "StrategyDForceUSDC"
+
+Consumed 0.3900001049041748s over the allocated search time
+Consumed 0.3940000534057617s over the allocated search time
+Consumed 0.3940000534057617s over the allocated search time
+Consumed 0.3940000534057617s over the allocated search time
+
+SEARCHING: "IController.sol": "IController"
+
+Consumed 0.28800010681152344s over the allocated search time
+Consumed 0.2910001277923584s over the allocated search time
+Consumed 0.2910001277923584s over the allocated search time
+Consumed 0.2910001277923584s over the allocated search time
+
+SEARCHING: "Rewards.sol": "dRewards"
+
+Consumed 0.006999969482421875s over the allocated search time
+Consumed 0.007999897003173828s over the allocated search time
+Consumed 0.008999824523925781s over the allocated search time
+Consumed 0.008999824523925781s over the allocated search time
+
+SEARCHING: "Token.sol": "dERC20"
+
+Consumed 0.24400019645690918s over the allocated search time
+Consumed 0.24600005149841309s over the allocated search time
+Consumed 0.24600005149841309s over the allocated search time
+Consumed 0.24600005149841309s over the allocated search time
+
+SEARCHING: "Uni.sol": "Uni"
+

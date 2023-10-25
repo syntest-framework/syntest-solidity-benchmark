@@ -1,0 +1,219 @@
+> Using Truffle library from global node_modules.
+
+> server:            http://127.0.0.1:8555
+> truffle:           v5.4.6
+> ganache-core:      v2.13.0
+> solidity-coverage: v0.7.17
+
+Network Info
+============
+> id:      *
+> port:    8555
+> network: soliditycoverage
+
+
+Instrumenting for coverage...
+=============================
+
+> AavePoolReward_utils.sol
+> AavePoolReward.sol
+
+Compiling your contracts...
+===========================
+> Compiling ./.coverage_contracts/AavePoolReward.sol
+> Compiling ./.coverage_contracts/AavePoolReward_utils.sol
+> Artifacts written to /app/.coverage_artifacts/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+  Contract: AavePoolReward
+    1) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0x959A5722abEa091E23C5944d857C6aE523140D7c (type: address)
+    )
+
+
+    ---------------------------
+    2) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0x7Fa16e11D60AB02ec6D780bF999d506B4A598dFd (type: address)
+    )
+
+
+    ---------------------------
+    3) test for AavePoolReward
+    > No events were emitted
+    4) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0x4411fA7eC04321E7D3B8f8100507aA86d70Eb426 (type: address)
+    )
+
+
+    ---------------------------
+    5) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0x959A5722abEa091E23C5944d857C6aE523140D7c (type: address)
+    )
+
+
+    ---------------------------
+    6) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0x7Fa16e11D60AB02ec6D780bF999d506B4A598dFd (type: address)
+    )
+
+
+    ---------------------------
+    7) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0xe255c55146E20e436dACd8a08ac12cd959eD66dd (type: address)
+    )
+
+
+    ---------------------------
+    8) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0xe80D8FEa686f2B2719dE92b74ee9B33d5dB89409 (type: address)
+    )
+
+
+    ---------------------------
+    9) test for AavePoolReward
+
+    Events emitted during test:
+    ---------------------------
+
+    Ownable.OwnershipTransferred(
+      previousOwner: <indexed> 0x0000000000000000000000000000000000000000 (type: address),
+      newOwner: <indexed> 0xe80D8FEa686f2B2719dE92b74ee9B33d5dB89409 (type: address)
+    )
+
+
+    ---------------------------
+
+
+  0 passing (4s)
+  9 failing
+
+  1) Contract: AavePoolReward
+       test for AavePoolReward:
+     Error: Returned error: VM Exception while processing transaction: revert dev: wut?
+      at Context.<anonymous> (tests/test-AavePoolReward.js:12:58)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  2) Contract: AavePoolReward
+       test for AavePoolReward:
+     Error: Returned error: VM Exception while processing transaction: revert Caller is not reward distribution
+      at Context.<anonymous> (tests/test-AavePoolReward.js:27:73)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  3) Contract: AavePoolReward
+       test for AavePoolReward:
+     Error: Returned error: sender account not recognized
+      at Context.<anonymous> (tests/test-AavePoolReward.js:35:57)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  4) Contract: AavePoolReward
+       test for AavePoolReward:
+     Error: Returned error: VM Exception while processing transaction: revert Cannot withdraw 1
+      at Context.<anonymous> (tests/test-AavePoolReward.js:51:36)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  5) Contract: AavePoolReward
+       test for AavePoolReward:
+     TypeError: Cannot read property 'call' of undefined
+      at Context.<anonymous> (tests/test-AavePoolReward.js:66:67)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  6) Contract: AavePoolReward
+       test for AavePoolReward:
+     TypeError: Cannot read property 'call' of undefined
+      at Context.<anonymous> (tests/test-AavePoolReward.js:78:67)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  7) Contract: AavePoolReward
+       test for AavePoolReward:
+     Error: Returned error: VM Exception while processing transaction: revert SafeMath: subtraction overflow
+      at Context.<anonymous> (tests/test-AavePoolReward.js:91:63)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  8) Contract: AavePoolReward
+       test for AavePoolReward:
+     Error: Returned error: VM Exception while processing transaction: revert SafeERC20: call to non-contract
+      at Context.<anonymous> (tests/test-AavePoolReward.js:103:59)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+  9) Contract: AavePoolReward
+       test for AavePoolReward:
+     AssertionError: expected promise to be rejected with 'Error' but it was fulfilled with {}
+
+
+
+
+---------------------------|----------|----------|----------|----------|----------------|
+File                       |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+---------------------------|----------|----------|----------|----------|----------------|
+ contracts/                |    50.46 |    36.96 |    60.42 |    50.88 |                |
+  AavePoolReward.sol       |    59.09 |    64.29 |    91.67 |       60 |... 128,129,139 |
+  AavePoolReward_utils.sol |    44.62 |       25 |       50 |    44.93 |... 559,598,599 |
+---------------------------|----------|----------|----------|----------|----------------|
+All files                  |    50.46 |    36.96 |    60.42 |    50.88 |                |
+---------------------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
+> solidity-coverage cleaning up, shutting down ganache server
+Error: ❌ 9 test(s) failed under coverage.
+    at plugin (/app/node_modules/solidity-coverage/plugins/truffle.plugin.js:121:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Truffle v5.4.6 (core: 5.4.6)
+Node v14.17.5

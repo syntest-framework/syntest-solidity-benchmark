@@ -1,5 +1,6 @@
 const { exec } = require('child_process');
 const fs = require('fs');
+const fse = require('fs-extra');
 const data = require("./configurations.json");
 
 let waiting_processes = [];
@@ -16,34 +17,13 @@ function runContract() {
 
   // Delete old files
   console.log("Deleting old files")
-  const runFiles = fs.readdirSync("contracts");
-  for (let file of runFiles) {
-    fs.unlinkSync(`contracts/${file}`);
-  }
-  // if (fs.existsSync("migrations/2_deploy_contracts.js")) {
-  //   fs.unlinkSync("migrations/2_deploy_contracts.js");
-  // }
+  fse.emptyDirSync("contracts");
   fs.rmSync("syntest", { recursive: true, force: true });
   fs.rmSync(".syntest", { recursive: true, force: true });
 
   // Copy in new files
   console.log("Copying in new files");
-  // fs.copyFileSync("Migrations.sol", "contracts/Migrations.sol");
-
-  const files = fs.readdirSync(`benchmark/${contract}`);
-  for (let file of files) {
-    const extParts = file.split(".");
-
-    switch (extParts[extParts.length - 1]) {
-      case "sol":
-        fs.copyFileSync(`benchmark/${contract}/${file}`, `contracts/${file}`)
-        break;
-      // case "js":
-      //   if (file === "2_deploy_contracts.js")
-      //     fs.copyFileSync(`benchmark/${contract}/${file}`, `migrations/${file}`)
-      //   break;
-    }
-  }
+  fse.copySync(`benchmark/${contract}`, `contracts/${contract}`);
 
   // Run contract
   const child = exec(command, {cwd: "./"}, (error, stdout, stderr) => {
@@ -80,10 +60,7 @@ function runContract() {
       }
 
       if (fs.existsSync("syntest/tests")) {
-        const testFiles = fs.readdirSync("syntest/tests");
-        for (let file of testFiles) {
-          fs.copyFileSync(`syntest/tests/${file}`, `results/${contract}/tests/${file}`);
-        }
+        fse.copySync(`syntest/tests`, `results/${contract}/tests/`);
       } else {
         console.log("No tests");
       }
@@ -126,7 +103,7 @@ for (let configuration of data.configurations) {
     const seed = Math.floor(Math.random() * 1000);
     const arguments = ` --algorithm ${configuration.algorithm} --seed ${seed} --probe_objective ${configuration.probe_objective} --modifier_extraction ${configuration.modifier_extraction} --constant_pool ${configuration.constant_pool} --constant_pool_probability ${configuration.constant_pool_probability} --search_time ${configuration.search_time} --total_time ${configuration.total_time}`;
 
-    data['command'] = "truffle run syntest-solidity".concat(arguments);
+    data['command'] = "truffle run @syntest/solidity".concat(arguments);
     waiting_processes.push(data);
   }
 }

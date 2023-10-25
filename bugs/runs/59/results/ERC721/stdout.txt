@@ -1,0 +1,133 @@
+[2J[0f  ____                    _                  _   
+ / ___|   _   _   _ __   | |_    ___   ___  | |_ 
+ \___ \  | | | | | '_ \  | __|  / _ \ / __| | __|
+  ___) | | |_| | | | | | | |_  |  __/ \__ \ | |_ 
+ |____/   \__, | |_| |_|  \__|  \___| |___/  \__|
+          |___/                                  
+
+> syntest-solidity: v0.1.2
+
+GENERAL INFO
+
+
+Network Info: 
+> id: soliditycoverage
+> port: *
+> network: 8555
+
+TARGETS
+
+Included:
+=====================
+> ERC721.sol -> *
+> IERC721.sol -> *
+> IERC721Receiver.sol -> *
+> Context.sol -> *
+> Counters.sol -> *
+> ERC165.sol -> *
+> IERC165.sol -> *
+> SafeMath.sol -> *
+> Address.sol -> *
+=====================
+
+CONFIGURATION
+
+Seed: 812
+
+Budgets: 
+> Iteration Budget: 1000 iterations
+> Evaluation Budget: 9007199254740991 evaluations
+> Search Time Budget: 3600 seconds
+> Total Time Budget: 900 seconds
+
+Algorithm: 
+> Algorithm: sFuzz
+> Population Size: 10
+
+Variation Probabilities: 
+> Resampling: 0.01
+> Delta mutation: 0.8
+> Re-sampling from chromosome: 0.5
+> Crossover: 0.8
+
+Sampling: 
+> Max Depth: 5
+> Explore Illegal Values: false
+> Sample Function Result as Argument: 0.5
+> Crossover: 0.8
+
+SEARCHING: "ERC721.sol": "ERC721"
+
+Consumed 0.31399989128112793s over the allocated search time
+Consumed 0.3169999122619629s over the allocated search time
+Consumed 0.3169999122619629s over the allocated search time
+Consumed 0.3169999122619629s over the allocated search time
+
+SEARCHING: "IERC721.sol": "IERC721"
+
+Consumed 0.09400010108947754s over the allocated search time
+Consumed 0.0950002670288086s over the allocated search time
+Consumed 0.0950002670288086s over the allocated search time
+Consumed 0.0950002670288086s over the allocated search time
+
+SEARCHING: "IERC721Receiver.sol": "IERC721Receiver"
+
+Consumed 0.1119999885559082s over the allocated search time
+Consumed 0.1119999885559082s over the allocated search time
+Consumed 0.1119999885559082s over the allocated search time
+Consumed 0.11299991607666016s over the allocated search time
+
+SEARCHING: "Context.sol": "Context"
+
+Skipping 'Context' no possible function calls found!
+
+SEARCHING: "Counters.sol": "Counters"
+
+Skipping 'Counters' no possible function calls found!
+
+SEARCHING: "ERC165.sol": "ERC165"
+
+Consumed 0.10700011253356934s over the allocated search time
+Consumed 0.10800004005432129s over the allocated search time
+Consumed 0.10800004005432129s over the allocated search time
+Consumed 0.10800004005432129s over the allocated search time
+
+SEARCHING: "IERC165.sol": "IERC165"
+
+Consumed 0.026000022888183594s over the allocated search time
+Consumed 0.026999950408935547s over the allocated search time
+Consumed 0.026999950408935547s over the allocated search time
+Consumed 0.026999950408935547s over the allocated search time
+
+SEARCHING: "SafeMath.sol": "SafeMath"
+
+Skipping 'SafeMath' no possible function calls found!
+
+SEARCHING: "Address.sol": "Address"
+
+Skipping 'Address' no possible function calls found!
+
+SEARCH RESULTS
+
+--------------------------|----------|----------|----------|----------|----------------|
+File                      |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+--------------------------|----------|----------|----------|----------|----------------|
+ contracts/               |        0 |        0 |        0 |        0 |                |
+  ERC721.sol              |        0 |        0 |        0 |        0 |... 335,343,344 |
+  IERC721.sol             |      100 |      100 |      100 |      100 |                |
+  IERC721Receiver.sol     |      100 |      100 |      100 |      100 |                |
+ contracts/GSN/           |        0 |      100 |        0 |        0 |                |
+  Context.sol             |        0 |      100 |        0 |        0 |       20,24,25 |
+ contracts/drafts/        |        0 |      100 |        0 |        0 |                |
+  Counters.sol            |        0 |      100 |        0 |        0 |       27,32,36 |
+ contracts/introspection/ |        0 |        0 |        0 |        0 |                |
+  ERC165.sol              |        0 |        0 |        0 |        0 |    25,34,49,50 |
+  IERC165.sol             |      100 |      100 |      100 |      100 |                |
+ contracts/math/          |        0 |        0 |        0 |        0 |                |
+  SafeMath.sol            |        0 |        0 |        0 |        0 |... 136,153,154 |
+ contracts/utils/         |        0 |        0 |        0 |        0 |                |
+  Address.sol             |        0 |        0 |        0 |        0 |... 42,64,67,68 |
+--------------------------|----------|----------|----------|----------|----------------|
+All files                 |        0 |        0 |        0 |        0 |                |
+--------------------------|----------|----------|----------|----------|----------------|
+

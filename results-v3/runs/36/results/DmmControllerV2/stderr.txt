@@ -1,0 +1,56 @@
+Trace: /app/syntest-solidity-benchmark/.syntest/tests/tempTest.js:16
+4yPSBw = await DmmControllerV2rEQ1m7f.transferOwnership.call(addressWZfVdDr, {from: "0x0000000000000000000000000000000000000001"});
+^
+
+SyntaxError: Invalid or unexpected token
+    at compileFunction (<anonymous>)
+    at wrapSafe (internal/modules/cjs/loader.js:988:16)
+    at Module._compile (internal/modules/cjs/loader.js:1036:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at /app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:390:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:387:14)
+    at Mocha.run (/app/syntest-solidity/node_modules/truffle/node_modules/mocha/lib/mocha.js:961:10)
+    at /app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:151:1
+    at new Promise (<anonymous>)
+    at Object.run (/app/syntest-solidity/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:150:1) {
+  level: 'error',
+  [Symbol(level)]: 'error',
+  [Symbol(message)]: '{"level":"error"}'
+}
+    at SolidityRunner.<anonymous> (/app/syntest-solidity/src/testcase/execution/SolidityRunner.ts:59:15)
+    at Generator.throw (<anonymous>)
+    at rejected (/app/syntest-solidity/dist/testcase/execution/SolidityRunner.js:6:65)
+
+<--- Last few GCs --->
+
+[147:0x4a67320]  1809235 ms: Mark-sweep (reduce) 4090.8 (4105.2) -> 4090.8 (4106.2) MB, 2305.1 / 0.1 ms  (average mu = 0.087, current mu = 0.002) allocation failure scavenge might not succeed
+[147:0x4a67320]  1811580 ms: Mark-sweep (reduce) 4090.8 (4108.2) -> 4090.5 (4108.2) MB, 2345.5 / 0.0 ms  (average mu = 0.050, current mu = 0.000) allocation failure scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xa25510 node::Abort() [node]
+ 2: 0x9664d3 node::FatalError(char const*, char const*) [node]
+ 3: 0xb9a8be v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xb9ac37 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xd56ca5  [node]
+ 6: 0xd5782f  [node]
+ 7: 0xd6566b v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 8: 0xd67e3e v8::internal::Heap::CollectAllAvailableGarbage(v8::internal::GarbageCollectionReason) [node]
+ 9: 0xd6927b v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+10: 0xd2e9fd v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [node]
+11: 0xd28884 v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawWithImmortalMap(int, v8::internal::AllocationType, v8::internal::Map, v8::internal::AllocationAlignment) [node]
+12: 0xd2a890 v8::internal::FactoryBase<v8::internal::Factory>::NewRawOneByteString(int, v8::internal::AllocationType) [node]
+13: 0xe4b47d v8::internal::JsonParser<unsigned char>::MakeString(v8::internal::JsonString const&, v8::internal::Handle<v8::internal::String>) [node]
+14: 0xe4d9fd v8::internal::JsonParser<unsigned char>::ParseJsonValue() [node]
+15: 0xe4e1ef v8::internal::JsonParser<unsigned char>::ParseJson() [node]
+16: 0xc46708  [node]
+17: 0xc46cb6 v8::internal::Builtin_JsonParse(int, unsigned long*, v8::internal::Isolate*) [node]
+18: 0x14269f9  [node]
+Aborted (core dumped)

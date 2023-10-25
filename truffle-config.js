@@ -18,5 +18,10 @@ module.exports = {
   //  }
   // },
   test_directory: "syntest/tests",
-  plugins: ["syntest-solidity", "solidity-coverage"]
+  plugins: ["@syntest/solidity", "solidity-coverage"],
+  // compilers: {
+  //   solc: {
+  //     version: "0.8.8"
+  //   }
+  // }
 };
